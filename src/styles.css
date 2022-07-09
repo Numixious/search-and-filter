@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* list-style: none; */
+}
+
+/* root variable */
+:root {
+  --color-primary: #699e34;
+  --color-primary-light: #b3d98d;
+  --color-secondary-light: #fff6f2;
+  --color-secondary-dark: #ffa589;
+  --color-navbar: #f8f8f8;
+  --color-headings: #000;
+  --color-body: #333333;
+  --color-white: #fff;
+  --avatar-size: 50px;
+}
+
+html {
+  font-size: 62.5%;
+}
+header {
+  width: auto;
+  height: 200px;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-input {
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
+  text-align: center;
+  margin: 2rem;
+  width: 300px;
+}
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.filter-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter-titles {
+  width: 65px;
+  height: 20px;
+  background-color: white;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+  cursor: pointer;
+  border: var(--color-secondary-dark);
+  font-size: 1.5rem;
+}
+.items {
+  display: grid;
+  grid-template-columns: 12px 12px 12px;
+  grid-template-rows: 12px 12px 12px;
+  grid-gap: 6px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  width: auto;
+  height: 500px;
+  background-color: #ffa589;
+  font-size: 2rem;
+}
+.items-properties {
+  margin-top: 1.5rem;
+}
