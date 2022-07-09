@@ -66,14 +66,9 @@ header {
   font-size: 1.5rem;
 }
 .items {
-  display: grid;
-  grid-template-columns: 12px 12px 12px;
-  grid-template-rows: 12px 12px 12px;
-  grid-gap: 6px;
+  display: flex;
   justify-content: center;
-  justify-items: center;
   align-items: center;
-  align-content: center;
   width: auto;
   height: 500px;
   background-color: #d9d9d9;
@@ -90,6 +85,7 @@ header {
   align-items: center;
   flex-direction: column;
   padding: 1rem 2rem;
+  margin: 0 3rem;
 }
 .detail-of-watch {
   display: flex;
