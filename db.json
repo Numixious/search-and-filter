@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "alpina watch 1",
+      "price": "120$",
+      "image": "./src/pic/watch1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "alpina watch 2",
+      "price": "3300$",
+      "image": "./src/pic/watch2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "alpina watch 3",
+      "price": "400$",
+      "image": "./src/pic/watch3.jpg"
+    }
+  ],
+  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+  "profile": { "name": "typicode" }
+}
