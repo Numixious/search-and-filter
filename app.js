@@ -25,7 +25,7 @@ function renderProducts(_products, _filter) {
         <img src="${item.image}" alt="" style="width: 20rem" />
         <div class="detail-of-watch">
           <div class="price-and-model">${item.price}</div>
-          <div class="price-and-model">${item.model}</div>`;
+          <div class="price-and-model">${item.title}</div>`;
     productsDOM.appendChild(productDiv);
   });
 }
